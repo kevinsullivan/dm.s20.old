@@ -1,17 +1,9 @@
-# lean-tutorials
+# UVA CS DM S20
 
-The goal of this project is to gather tutorials and demo files for Lean
-beginners, allowing to see what it looks like without reading 
-much documentation. Currently there is one such tutorial.
+Clone this repository the create the directory in which you will work with Lean during this course.
 
-Of course you can look at [this file](src/first_proofs.lean) online but
-the recommended way it to [install Lean](https://github.com/leanprover-community/mathlib/blob/master/README.md) and [get this project](https://github.com/leanprover-community/mathlib/blob/master/docs/install/project.md) for local use.
+Once you have cloned it, cd into the new directory and launch VS Code with the command, "code ."
 
-If you have already installed Lean and mathlib in the recommended manner, and have access to a command line, then installing this project should be as simple as
+Use the project browser panel on the left to show the src directory, and open the .lean file there.
 
-```
-git clone https://github.com/leanprover-community/tutorials.git
-cd tutorials
-leanpkg configure
-update-mathlib
-```
+It will tell you how to determine whether your set-up is now working properly for this course.
